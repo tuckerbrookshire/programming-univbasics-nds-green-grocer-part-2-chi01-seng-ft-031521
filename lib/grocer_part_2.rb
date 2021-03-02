@@ -1,6 +1,12 @@
 require_relative './part_1_solution.rb'
+require "pry"
 
 def apply_coupons(cart, coupons)
+  cart.map do |grocery|
+    binding.pry
+    grocery.each do |key, value|
+  end
+  end
   # Consult README for inputs and outputs
   #
   # REMEMBER: This method **should** update cart
